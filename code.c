@@ -148,8 +148,7 @@ int main(int argc, char *argv[])
         else if (lerBotão(portas[1]) && !gameOver)
         {
             acenderLED(2, "0");
-            printf("Jogador
-             2 ganhou");
+            printf("Jogador 2 ganhou");
             gameOver = true;
         }
 
