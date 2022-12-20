@@ -111,6 +111,9 @@ int main(int argc, char *argv[])
 
     close(aux);
 
+    /*
+        Starta entradas e saidas
+    */
     for (i = 0; i < 3; i++)
     {
         strcat(strcpy(buffer, path_02), portas[i]);
