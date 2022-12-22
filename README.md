@@ -80,3 +80,19 @@ reboot
 
 Pronto agora sua placa pode funcionar independente de conexão com computador, apenas com energia.
 
+## Limitações do Projeto:
+
+Considerando o modo que o código foi desenvolvido, foi constatado que se ambos botões forem apertados juntos, o jogador 1 tera privilegios.
+
+## Divisão de trabalho:
+
+- (Filipe Stecconi) Instalação do sistema Ubuntu em máquina virtual, configuração do ambiente, gerar permissões, instalar toolchain para compilação cruzada
+
+- (Igor Bruciere) Montagem do hardware, ligando a placa embarcada as suas respectivas entradas e saídas (LEDs e botões)
+
+- (Rafael Vasconcelos e Thiago Alves) Codificação do projeto (em C) com base nos requisitos do projeto
+
+- (Rafael Ramos) Comunicação com a placa e envio do código para a mesma
+
+
+
